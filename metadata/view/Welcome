@@ -1,0 +1,177 @@
+{
+    "id": "ExtBox1-ext-gen2558",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "layout": "vbox",
+        "designer|userClassName": "Welcome",
+        "designer|userAlias": "welcomepanel"
+    },
+    "customConfigs": [],
+    "designerId": "8ba3d27b-f2b0-4a51-bb02-04c57b972d9f",
+    "$viewOrder": 2,
+    "expanded": false,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3992",
+            "type": "titlebar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "top",
+                "title": "Go SignMeUp",
+                "designer|userClassName": "MyTitleBar"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen4586",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 196,
+                "width": 318,
+                "designer|userClassName": "MyContainer2"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen6651",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer3"
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen7766",
+                    "type": "segmentedbutton",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|userClassName": "MySegmentedButton",
+                        "container|align": "center",
+                        "container|pack": "center"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen7774",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Current",
+                                "designer|userClassName": "MyButton1"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen7782",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "minWidth": 100,
+                                "text": "Past",
+                                "designer|userClassName": "MyButton2"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen9306",
+            "type": "searchfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "",
+                "designer|userClassName": "MySearchField"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen11404",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer4"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen12239",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemTpl": "<div>List Item {string}</div>",
+                "designer|userClassName": "MyList"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen12366",
+            "type": "list",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 159,
+                "itemTpl": "<div>List Item {string}</div>",
+                "designer|userClassName": "MyList1"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}

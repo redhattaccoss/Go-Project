@@ -1,0 +1,9 @@
+body{
+	font-size:12px!important;
+}
+.logo{
+	background:url(../images/logo.gif) no-repeat;
+	background-position:center center;
+	background-size:150px 150px;
+}
+

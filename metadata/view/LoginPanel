@@ -1,0 +1,148 @@
+{
+    "id": "ExtBox1-ext-gen3071",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "layout": "vbox",
+        "designer|userClassName": "LoginPanel",
+        "designer|userAlias": "loginpanel",
+        "container|align": "center",
+        "container|pack": "center"
+    },
+    "customConfigs": [],
+    "designerId": "1ae9955c-0649-4c3c-aa15-1d782fb198c9",
+    "$viewOrder": 1,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3319",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "cls": [
+                    "logo"
+                ],
+                "height": 221,
+                "ui": "",
+                "width": "100%",
+                "layout": null,
+                "designer|userClassName": "MyContainer",
+                "layout|flex": null
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen7196",
+            "type": "formpanel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "maxWidth": 1024,
+                "width": 300,
+                "designer|userClassName": "MyFormPanel",
+                "layout|flex": 1
+            },
+            "customConfigs": [],
+            "expanded": true,
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9180",
+                    "type": "textfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "0, 0, 5, 0",
+                        "label": "Username",
+                        "name": "username",
+                        "designer|userClassName": "MyTextField"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen9639",
+                    "type": "passwordfield",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "0, 0, 10, 0",
+                        "label": "Password",
+                        "labelWrap": true,
+                        "name": "password",
+                        "designer|userClassName": "MyPasswordField"
+                    },
+                    "customConfigs": [],
+                    "expanded": true
+                },
+                {
+                    "id": "ExtBox1-ext-gen10220",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "10 0 0 0",
+                        "padding": "",
+                        "right": 15,
+                        "designer|userClassName": "MyContainer1"
+                    },
+                    "customConfigs": [],
+                    "expanded": true,
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen10722",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": "",
+                                "width": 86,
+                                "text": "Submit",
+                                "designer|userClassName": "MyButton"
+                            },
+                            "customConfigs": [],
+                            "expanded": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen3422",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyContainer5"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
